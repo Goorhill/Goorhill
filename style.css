@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    background-color: #171717;
+    padding: 20px;
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 20px;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: #ff0000;
+}
+
+.menu li:nth-child(1) a {
+    color: #ecec53;
+}
+
+.menu li:nth-child(2) a {
+    color: #ff0000;
+}
+
+.menu li:nth-child(3) a {
+    color: #00ff00;
+}
+
+.menu li:nth-child(4) a {
+    color: #9966cc;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+.menu li.active a {
+    color: #00ff00;
+}
+
+.content {
+    padding: 20px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+.contact-info p {
+    margin-bottom: 5px;
+}
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info li {
+    margin-bottom: 10px;
+}
+.contact-info strong {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.code-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: code-animation 6s infinite;
+    animation-timing-function: steps(41);
+}
+
+@keyframes code-animation {
+    from { width: 0; }
+    to { width: 100%; }
+}
